@@ -13,6 +13,7 @@
   --page-bg-color: rgba(255, 241, 247, 1);
   --decorated-color: rgba(53, 52, 48, 1);
   --title-header-color: rgba(255, 194, 230, 1);
+  --title-header-shadow-color: rgba(255, 141, 203, 1);
   --accent-color: rgba(53, 52, 48, 1);
   --rectangle-bg-color: rgba(255, 141, 203, 1);
   --rectangle-color: rgba(53, 52, 48, 1);
@@ -28,10 +29,12 @@
     --page-bg-color: rgba(255, 241, 247, 1);
     --decorated-color: rgba(53, 52, 48, 1);
     --title-header-color: rgba(255, 194, 230, 1);
+    --title-header-shadow-color: rgba(255, 141, 203, 1);
     --accent-color: rgba(53, 52, 48, 1);
     --rectangle-bg-color: rgba(255, 141, 203, 1);
     --rectangle-color: rgba(53, 52, 48, 1);
     --article-color: rgba(53, 52, 48, 1);
+    --link-shadow-color: rgba(255, 141, 203, 1);
     --decorated-color-hover: rgba(50, 49, 45, 0.4);
     --lamp-display: none;
   }

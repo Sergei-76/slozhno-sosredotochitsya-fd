@@ -7,6 +7,7 @@
   --page-bg-color: rgba(0, 0, 40, 1);
   --decorated-color: rgba(255, 0, 112, 1);
   --title-header-color: rgba(219, 0, 255, 1);
+  --title-header-shadow-color: rgba(255, 0, 112, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --rectangle-color: rgba(0, 0, 40, 1);
   --article-color: rgba(241, 178, 206, 1);
@@ -16,14 +17,21 @@
   --title-header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --lamp-display: grid;
   --page-gap: 40px;
+  --header-padding: 10px;
   --main-gap: 50px;
   --section-gap: 20px;
+  --section-padding: 10px;
+  --img-section-gap: 10px;
+  --article-gap: 10px;
 }
 
 @media (width >= 768px) {
   :root {
     --title-header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --page-gap: 60px;
+    --header-padding: 0;
     --main-gap: 80px;
+    --section-padding: 20px;
+    --img-section-gap: 20px;
   }
 }
