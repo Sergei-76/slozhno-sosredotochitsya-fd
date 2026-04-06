@@ -93,7 +93,7 @@
   display: var(--lamp-display);
 }
 
-.decor::before{
+.decor::before {
   content: "";
   position: absolute;
   width: 25px;
